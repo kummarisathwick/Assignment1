@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit Card Interface</title>
+<link rel="stylesheet" href="style.css">
+<script src="./code.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<div class="main">
+    <div class="sub-main">
+        <div class="card">
+            <div class="icon">
+                <i style="font-size: 30px;" class="bi bi-circle-fill"></i>
+                <i style="font-size: 15px;" class="bi bi-circle"></i>
+            </div>
+            <div class="cn">
+                <input type="text" id="dnum" readonly placeholder="0000 0000 0000 0000">
+            </div>
+            <div class="cardd">
+                <div class="cna">
+                    <input type="text" id="dname" readonly placeholder="e.g. Jane Forester" >
+                </div>
+                <div class="date">
+                    <input type="text" id="dmm" readonly placeholder="MM">
+                    <input type="text" id="dyy" readonly placeholder="YY">
+                </div>
+            </div>
+        </div>
+        <div class="pic">
+        </div>
+    </div>
+
+    <div class="sub" style="margin-right: 10%;">
+        <form action="./index.html">
+            <div class="th" style="text-align: center;">
+                <i style="font-size: 80px;color:darkmagenta" class="bi bi-check-circle-fill"></i>
+                <h1 style="font-size: 60px;">THANK YOU !</h1>
+                <h1 style="color: gray;">We've added your card details Continue</h1>
+                <button class="btn" style="background: black;">Continue</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

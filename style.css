@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    font-family: "Quicksand", sans-serif;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+body{
+    background-image: url(./s.png);
+}
+.main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    line-height: 20px;
+}
+.card{
+    margin-left: 40%;
+    margin-top: 20%;
+    border: none;
+    border-radius: 20px;
+    padding: 10%;
+    width: 80%;
+    background: url(./bg-card-front.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic{
+    margin-left: 60%;
+    margin-top: 8%;
+    border: none;
+    border-radius: 20px;
+    padding: 20%;
+    width: 70%;
+    background: url(./bg-card-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.side{
+    display: flex;
+    width: 50%;
+}
+.card ::placeholder{
+    color: white;
+}
+.card input{
+    color: white;
+    background: transparent;
+    border: none;
+}
+.con input:focus{
+    border-color: darkblue;
+}
+.si input:focus{
+    border-color: darkblue;
+}
+.sid input:focus{
+    border-color: darkblue;
+}
+.con input{
+    border: 2px solid gray;
+    width: 50%;
+    padding: 5px;
+}
+.si input{
+    width: 36%;
+    padding: 6px;
+}
+.sid input{
+    width: 100%;
+    padding: 5px;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    background: darkmagenta;
+    color: white;
+    cursor: pointer;
+}
+.cardd{
+    display: flex;
+    
+}
+.date{
+    display: flex;
+}
+.date input{
+    width: 70%;
+}
+.icon{
+    margin-bottom:10%;
+    color: white;
+}
+.cn{
+    margin: 10%;
+}
+
+.s-name{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
